@@ -1,0 +1,933 @@
+2019-07-01T12:02:07.266Z INFO @wdio/local-runner: Run worker command: run
+2019-07-01T12:02:07.271Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "selenium-standalone"
+2019-07-01T12:02:07.349Z DEBUG @wdio/local-runner:utils: init remote session
+2019-07-01T12:02:07.377Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session
+2019-07-01T12:02:07.378Z INFO webdriver: DATA { capabilities:
+   { alwaysMatch: { browserName: 'chrome', 'goog:chromeOptions': [Object] },
+     firstMatch: [ {} ] },
+  desiredCapabilities:
+   { browserName: 'chrome',
+     'goog:chromeOptions': { args: [Array] } } }
+2019-07-01T12:02:08.648Z INFO webdriver: COMMAND navigateTo("http://localhost:9999/")
+2019-07-01T12:02:08.649Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/url
+2019-07-01T12:02:08.649Z INFO webdriver: DATA { url: 'http://localhost:9999/' }
+2019-07-01T12:02:08.651Z INFO webdriver: COMMAND findElements("css selector", "ul li")
+2019-07-01T12:02:08.651Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/elements
+2019-07-01T12:02:08.651Z INFO webdriver: DATA { using: 'css selector', value: 'ul li' }
+2019-07-01T12:02:08.742Z INFO webdriver: RESULT [ { ELEMENT: '0.703584376569431-1' },
+  { ELEMENT: '0.703584376569431-2' },
+  { ELEMENT: '0.703584376569431-3' },
+  { ELEMENT: '0.703584376569431-4' },
+  { ELEMENT: '0.703584376569431-5' },
+  { ELEMENT: '0.703584376569431-6' },
+  { ELEMENT: '0.703584376569431-7' },
+  { ELEMENT: '0.703584376569431-8' },
+  { ELEMENT: '0.703584376569431-9' },
+  { ELEMENT: '0.703584376569431-10' },
+  { ELEMENT: '0.703584376569431-11' },
+  { ELEMENT: '0.703584376569431-12' },
+  { ELEMENT: '0.703584376569431-13' },
+  { ELEMENT: '0.703584376569431-14' },
+  { ELEMENT: '0.703584376569431-15' },
+  { ELEMENT: '0.703584376569431-16' },
+  { ELEMENT: '0.703584376569431-17' },
+  { ELEMENT: '0.703584376569431-18' },
+  { ELEMENT: '0.703584376569431-19' },
+  { ELEMENT: '0.703584376569431-20' },
+  { ELEMENT: '0.703584376569431-21' },
+  { ELEMENT: '0.703584376569431-22' },
+  { ELEMENT: '0.703584376569431-23' },
+  { ELEMENT: '0.703584376569431-24' },
+  { ELEMENT: '0.703584376569431-25' },
+  { ELEMENT: '0.703584376569431-26' },
+  { ELEMENT: '0.703584376569431-27' },
+  { ELEMENT: '0.703584376569431-28' },
+  { ELEMENT: '0.703584376569431-29' },
+  { ELEMENT: '0.703584376569431-30' },
+  { ELEMENT: '0.703584376569431-31' },
+  { ELEMENT: '0.703584376569431-32' },
+  { ELEMENT: '0.703584376569431-33' },
+  { ELEMENT: '0.703584376569431-34' },
+  { ELEMENT: '0.703584376569431-35' },
+  { ELEMENT: '0.703584376569431-36' },
+  { ELEMENT: '0.703584376569431-37' },
+  { ELEMENT: '0.703584376569431-38' },
+  { ELEMENT: '0.703584376569431-39' },
+  { ELEMENT: '0.703584376569431-40' },
+  { ELEMENT: '0.703584376569431-41' },
+  { ELEMENT: '0.703584376569431-42' },
+  { ELEMENT: '0.703584376569431-43' },
+  { ELEMENT: '0.703584376569431-44' },
+  { ELEMENT: '0.703584376569431-45' },
+  { ELEMENT: '0.703584376569431-46' },
+  { ELEMENT: '0.703584376569431-47' },
+  { ELEMENT: '0.703584376569431-48' },
+  { ELEMENT: '0.703584376569431-49' },
+  { ELEMENT: '0.703584376569431-50' },
+  { ELEMENT: '0.703584376569431-51' },
+  { ELEMENT: '0.703584376569431-52' },
+  { ELEMENT: '0.703584376569431-53' },
+  { ELEMENT: '0.703584376569431-54' },
+  { ELEMENT: '0.703584376569431-55' },
+  { ELEMENT: '0.703584376569431-56' },
+  { ELEMENT: '0.703584376569431-57' },
+  { ELEMENT: '0.703584376569431-58' },
+  { ELEMENT: '0.703584376569431-59' },
+  { ELEMENT: '0.703584376569431-60' },
+  { ELEMENT: '0.703584376569431-61' },
+  { ELEMENT: '0.703584376569431-62' },
+  { ELEMENT: '0.703584376569431-63' },
+  { ELEMENT: '0.703584376569431-64' },
+  { ELEMENT: '0.703584376569431-65' },
+  { ELEMENT: '0.703584376569431-66' },
+  { ELEMENT: '0.703584376569431-67' },
+  { ELEMENT: '0.703584376569431-68' },
+  { ELEMENT: '0.703584376569431-69' },
+  { ELEMENT: '0.703584376569431-70' },
+  { ELEMENT: '0.703584376569431-71' },
+  { ELEMENT: '0.703584376569431-72' },
+  { ELEMENT: '0.703584376569431-73' },
+  { ELEMENT: '0.703584376569431-74' },
+  { ELEMENT: '0.703584376569431-75' },
+  { ELEMENT: '0.703584376569431-76' },
+  { ELEMENT: '0.703584376569431-77' },
+  { ELEMENT: '0.703584376569431-78' },
+  { ELEMENT: '0.703584376569431-79' },
+  { ELEMENT: '0.703584376569431-80' },
+  { ELEMENT: '0.703584376569431-81' },
+  { ELEMENT: '0.703584376569431-82' },
+  { ELEMENT: '0.703584376569431-83' },
+  { ELEMENT: '0.703584376569431-84' },
+  { ELEMENT: '0.703584376569431-85' },
+  { ELEMENT: '0.703584376569431-86' },
+  { ELEMENT: '0.703584376569431-87' },
+  { ELEMENT: '0.703584376569431-88' },
+  { ELEMENT: '0.703584376569431-89' },
+  { ELEMENT: '0.703584376569431-90' },
+  { ELEMENT: '0.703584376569431-91' },
+  { ELEMENT: '0.703584376569431-92' },
+  { ELEMENT: '0.703584376569431-93' },
+  { ELEMENT: '0.703584376569431-94' },
+  { ELEMENT: '0.703584376569431-95' },
+  { ELEMENT: '0.703584376569431-96' },
+  { ELEMENT: '0.703584376569431-97' },
+  { ELEMENT: '0.703584376569431-98' },
+  { ELEMENT: '0.703584376569431-99' },
+  { ELEMENT: '0.703584376569431-100' },
+  ... 96 more items ]
+2019-07-01T12:02:08.918Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-196", "css selector", "span")
+2019-07-01T12:02:08.919Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-196/element
+2019-07-01T12:02:08.919Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:08.935Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-197' }
+2019-07-01T12:02:08.948Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-195", "css selector", "span")
+2019-07-01T12:02:08.948Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-195/element
+2019-07-01T12:02:08.948Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:08.972Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-198' }
+2019-07-01T12:02:08.981Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-194", "css selector", "span")
+2019-07-01T12:02:08.982Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-194/element
+2019-07-01T12:02:08.982Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.001Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-199' }
+2019-07-01T12:02:09.012Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-193", "css selector", "span")
+2019-07-01T12:02:09.013Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-193/element
+2019-07-01T12:02:09.013Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.035Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-200' }
+2019-07-01T12:02:09.042Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-192", "css selector", "span")
+2019-07-01T12:02:09.042Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-192/element
+2019-07-01T12:02:09.042Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.063Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-201' }
+2019-07-01T12:02:09.073Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-191", "css selector", "span")
+2019-07-01T12:02:09.074Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-191/element
+2019-07-01T12:02:09.074Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.094Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-202' }
+2019-07-01T12:02:09.103Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-190", "css selector", "span")
+2019-07-01T12:02:09.103Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-190/element
+2019-07-01T12:02:09.103Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.125Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-203' }
+2019-07-01T12:02:09.134Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-189", "css selector", "span")
+2019-07-01T12:02:09.134Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-189/element
+2019-07-01T12:02:09.134Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.157Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-204' }
+2019-07-01T12:02:09.165Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-188", "css selector", "span")
+2019-07-01T12:02:09.165Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-188/element
+2019-07-01T12:02:09.165Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.188Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-205' }
+2019-07-01T12:02:09.204Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-187", "css selector", "span")
+2019-07-01T12:02:09.205Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-187/element
+2019-07-01T12:02:09.205Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.223Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-206' }
+2019-07-01T12:02:09.231Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-186", "css selector", "span")
+2019-07-01T12:02:09.232Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-186/element
+2019-07-01T12:02:09.232Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.252Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-207' }
+2019-07-01T12:02:09.262Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-185", "css selector", "span")
+2019-07-01T12:02:09.262Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-185/element
+2019-07-01T12:02:09.262Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.290Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-208' }
+2019-07-01T12:02:09.298Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-184", "css selector", "span")
+2019-07-01T12:02:09.298Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-184/element
+2019-07-01T12:02:09.298Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.318Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-209' }
+2019-07-01T12:02:09.323Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-183", "css selector", "span")
+2019-07-01T12:02:09.323Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-183/element
+2019-07-01T12:02:09.324Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.349Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-210' }
+2019-07-01T12:02:09.354Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-182", "css selector", "span")
+2019-07-01T12:02:09.355Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-182/element
+2019-07-01T12:02:09.355Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.376Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-211' }
+2019-07-01T12:02:09.381Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-181", "css selector", "span")
+2019-07-01T12:02:09.381Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-181/element
+2019-07-01T12:02:09.382Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.403Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-212' }
+2019-07-01T12:02:09.412Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-180", "css selector", "span")
+2019-07-01T12:02:09.413Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-180/element
+2019-07-01T12:02:09.413Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.437Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-213' }
+2019-07-01T12:02:09.441Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-179", "css selector", "span")
+2019-07-01T12:02:09.442Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-179/element
+2019-07-01T12:02:09.442Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.466Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-214' }
+2019-07-01T12:02:09.470Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-178", "css selector", "span")
+2019-07-01T12:02:09.471Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-178/element
+2019-07-01T12:02:09.471Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.489Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-215' }
+2019-07-01T12:02:09.500Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-177", "css selector", "span")
+2019-07-01T12:02:09.501Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-177/element
+2019-07-01T12:02:09.501Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.521Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-216' }
+2019-07-01T12:02:09.524Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-176", "css selector", "span")
+2019-07-01T12:02:09.527Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-176/element
+2019-07-01T12:02:09.528Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.559Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-217' }
+2019-07-01T12:02:09.564Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-175", "css selector", "span")
+2019-07-01T12:02:09.564Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-175/element
+2019-07-01T12:02:09.564Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.585Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-218' }
+2019-07-01T12:02:09.592Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-174", "css selector", "span")
+2019-07-01T12:02:09.592Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-174/element
+2019-07-01T12:02:09.592Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.614Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-219' }
+2019-07-01T12:02:09.617Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-173", "css selector", "span")
+2019-07-01T12:02:09.617Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-173/element
+2019-07-01T12:02:09.618Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.642Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-220' }
+2019-07-01T12:02:09.648Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-172", "css selector", "span")
+2019-07-01T12:02:09.648Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-172/element
+2019-07-01T12:02:09.649Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.669Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-221' }
+2019-07-01T12:02:09.672Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-171", "css selector", "span")
+2019-07-01T12:02:09.672Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-171/element
+2019-07-01T12:02:09.673Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.696Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-222' }
+2019-07-01T12:02:09.701Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-170", "css selector", "span")
+2019-07-01T12:02:09.701Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-170/element
+2019-07-01T12:02:09.701Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.722Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-223' }
+2019-07-01T12:02:09.730Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-169", "css selector", "span")
+2019-07-01T12:02:09.732Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-169/element
+2019-07-01T12:02:09.732Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.754Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-224' }
+2019-07-01T12:02:09.760Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-168", "css selector", "span")
+2019-07-01T12:02:09.761Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-168/element
+2019-07-01T12:02:09.761Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.781Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-225' }
+2019-07-01T12:02:09.793Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-167", "css selector", "span")
+2019-07-01T12:02:09.794Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-167/element
+2019-07-01T12:02:09.795Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.815Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-226' }
+2019-07-01T12:02:09.819Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-166", "css selector", "span")
+2019-07-01T12:02:09.820Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-166/element
+2019-07-01T12:02:09.820Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.839Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-227' }
+2019-07-01T12:02:09.842Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-165", "css selector", "span")
+2019-07-01T12:02:09.842Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-165/element
+2019-07-01T12:02:09.842Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.866Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-228' }
+2019-07-01T12:02:09.872Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-164", "css selector", "span")
+2019-07-01T12:02:09.873Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-164/element
+2019-07-01T12:02:09.873Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.890Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-229' }
+2019-07-01T12:02:09.893Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-163", "css selector", "span")
+2019-07-01T12:02:09.894Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-163/element
+2019-07-01T12:02:09.894Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.917Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-230' }
+2019-07-01T12:02:09.920Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-162", "css selector", "span")
+2019-07-01T12:02:09.921Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-162/element
+2019-07-01T12:02:09.921Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.944Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-231' }
+2019-07-01T12:02:09.948Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-161", "css selector", "span")
+2019-07-01T12:02:09.948Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-161/element
+2019-07-01T12:02:09.948Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.965Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-232' }
+2019-07-01T12:02:09.971Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-160", "css selector", "span")
+2019-07-01T12:02:09.972Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-160/element
+2019-07-01T12:02:09.972Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:09.990Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-233' }
+2019-07-01T12:02:09.995Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-159", "css selector", "span")
+2019-07-01T12:02:09.996Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-159/element
+2019-07-01T12:02:09.996Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.020Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-234' }
+2019-07-01T12:02:10.023Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-158", "css selector", "span")
+2019-07-01T12:02:10.024Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-158/element
+2019-07-01T12:02:10.024Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.046Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-235' }
+2019-07-01T12:02:10.051Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-157", "css selector", "span")
+2019-07-01T12:02:10.051Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-157/element
+2019-07-01T12:02:10.051Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.070Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-236' }
+2019-07-01T12:02:10.085Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-156", "css selector", "span")
+2019-07-01T12:02:10.086Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-156/element
+2019-07-01T12:02:10.094Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.115Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-237' }
+2019-07-01T12:02:10.120Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-155", "css selector", "span")
+2019-07-01T12:02:10.121Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-155/element
+2019-07-01T12:02:10.121Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.141Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-238' }
+2019-07-01T12:02:10.145Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-154", "css selector", "span")
+2019-07-01T12:02:10.145Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-154/element
+2019-07-01T12:02:10.145Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.167Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-239' }
+2019-07-01T12:02:10.173Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-153", "css selector", "span")
+2019-07-01T12:02:10.173Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-153/element
+2019-07-01T12:02:10.174Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.195Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-240' }
+2019-07-01T12:02:10.199Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-152", "css selector", "span")
+2019-07-01T12:02:10.200Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-152/element
+2019-07-01T12:02:10.200Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.226Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-241' }
+2019-07-01T12:02:10.230Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-151", "css selector", "span")
+2019-07-01T12:02:10.230Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-151/element
+2019-07-01T12:02:10.231Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.251Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-242' }
+2019-07-01T12:02:10.257Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-150", "css selector", "span")
+2019-07-01T12:02:10.257Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-150/element
+2019-07-01T12:02:10.257Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.287Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-243' }
+2019-07-01T12:02:10.290Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-149", "css selector", "span")
+2019-07-01T12:02:10.291Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-149/element
+2019-07-01T12:02:10.291Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.312Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-244' }
+2019-07-01T12:02:10.318Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-148", "css selector", "span")
+2019-07-01T12:02:10.318Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-148/element
+2019-07-01T12:02:10.318Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.338Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-245' }
+2019-07-01T12:02:10.342Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-147", "css selector", "span")
+2019-07-01T12:02:10.343Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-147/element
+2019-07-01T12:02:10.343Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.372Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-246' }
+2019-07-01T12:02:10.378Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-146", "css selector", "span")
+2019-07-01T12:02:10.379Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-146/element
+2019-07-01T12:02:10.379Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.410Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-247' }
+2019-07-01T12:02:10.448Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-145", "css selector", "span")
+2019-07-01T12:02:10.449Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-145/element
+2019-07-01T12:02:10.449Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.466Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-248' }
+2019-07-01T12:02:10.470Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-144", "css selector", "span")
+2019-07-01T12:02:10.470Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-144/element
+2019-07-01T12:02:10.470Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.494Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-249' }
+2019-07-01T12:02:10.497Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-143", "css selector", "span")
+2019-07-01T12:02:10.498Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-143/element
+2019-07-01T12:02:10.498Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.528Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-250' }
+2019-07-01T12:02:10.531Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-142", "css selector", "span")
+2019-07-01T12:02:10.531Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-142/element
+2019-07-01T12:02:10.531Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.549Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-251' }
+2019-07-01T12:02:10.557Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-141", "css selector", "span")
+2019-07-01T12:02:10.558Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-141/element
+2019-07-01T12:02:10.558Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.576Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-252' }
+2019-07-01T12:02:10.581Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-140", "css selector", "span")
+2019-07-01T12:02:10.582Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-140/element
+2019-07-01T12:02:10.582Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.602Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-253' }
+2019-07-01T12:02:10.605Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-139", "css selector", "span")
+2019-07-01T12:02:10.605Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-139/element
+2019-07-01T12:02:10.605Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.628Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-254' }
+2019-07-01T12:02:10.635Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-138", "css selector", "span")
+2019-07-01T12:02:10.635Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-138/element
+2019-07-01T12:02:10.635Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.655Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-255' }
+2019-07-01T12:02:10.663Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-137", "css selector", "span")
+2019-07-01T12:02:10.663Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-137/element
+2019-07-01T12:02:10.663Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.682Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-256' }
+2019-07-01T12:02:10.687Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-136", "css selector", "span")
+2019-07-01T12:02:10.688Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-136/element
+2019-07-01T12:02:10.688Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.711Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-257' }
+2019-07-01T12:02:10.715Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-135", "css selector", "span")
+2019-07-01T12:02:10.715Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-135/element
+2019-07-01T12:02:10.716Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.737Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-258' }
+2019-07-01T12:02:10.741Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-134", "css selector", "span")
+2019-07-01T12:02:10.741Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-134/element
+2019-07-01T12:02:10.741Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.765Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-259' }
+2019-07-01T12:02:10.768Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-133", "css selector", "span")
+2019-07-01T12:02:10.768Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-133/element
+2019-07-01T12:02:10.768Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.787Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-260' }
+2019-07-01T12:02:10.795Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-132", "css selector", "span")
+2019-07-01T12:02:10.796Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-132/element
+2019-07-01T12:02:10.796Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.819Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-261' }
+2019-07-01T12:02:10.824Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-131", "css selector", "span")
+2019-07-01T12:02:10.824Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-131/element
+2019-07-01T12:02:10.824Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.843Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-262' }
+2019-07-01T12:02:10.847Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-130", "css selector", "span")
+2019-07-01T12:02:10.848Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-130/element
+2019-07-01T12:02:10.848Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.869Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-263' }
+2019-07-01T12:02:10.875Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-129", "css selector", "span")
+2019-07-01T12:02:10.876Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-129/element
+2019-07-01T12:02:10.876Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.899Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-264' }
+2019-07-01T12:02:10.904Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-128", "css selector", "span")
+2019-07-01T12:02:10.905Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-128/element
+2019-07-01T12:02:10.905Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.927Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-265' }
+2019-07-01T12:02:10.932Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-127", "css selector", "span")
+2019-07-01T12:02:10.932Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-127/element
+2019-07-01T12:02:10.932Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.953Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-266' }
+2019-07-01T12:02:10.956Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-126", "css selector", "span")
+2019-07-01T12:02:10.956Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-126/element
+2019-07-01T12:02:10.956Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:10.983Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-267' }
+2019-07-01T12:02:10.986Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-125", "css selector", "span")
+2019-07-01T12:02:10.986Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-125/element
+2019-07-01T12:02:10.986Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.003Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-268' }
+2019-07-01T12:02:11.006Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-124", "css selector", "span")
+2019-07-01T12:02:11.006Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-124/element
+2019-07-01T12:02:11.007Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.031Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-269' }
+2019-07-01T12:02:11.034Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-123", "css selector", "span")
+2019-07-01T12:02:11.034Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-123/element
+2019-07-01T12:02:11.034Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.056Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-270' }
+2019-07-01T12:02:11.061Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-122", "css selector", "span")
+2019-07-01T12:02:11.061Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-122/element
+2019-07-01T12:02:11.061Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.080Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-271' }
+2019-07-01T12:02:11.085Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-121", "css selector", "span")
+2019-07-01T12:02:11.086Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-121/element
+2019-07-01T12:02:11.086Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.106Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-272' }
+2019-07-01T12:02:11.117Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-120", "css selector", "span")
+2019-07-01T12:02:11.118Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-120/element
+2019-07-01T12:02:11.118Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.147Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-273' }
+2019-07-01T12:02:11.151Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-119", "css selector", "span")
+2019-07-01T12:02:11.152Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-119/element
+2019-07-01T12:02:11.152Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.174Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-274' }
+2019-07-01T12:02:11.177Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-118", "css selector", "span")
+2019-07-01T12:02:11.177Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-118/element
+2019-07-01T12:02:11.177Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.201Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-275' }
+2019-07-01T12:02:11.204Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-117", "css selector", "span")
+2019-07-01T12:02:11.205Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-117/element
+2019-07-01T12:02:11.205Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.231Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-276' }
+2019-07-01T12:02:11.235Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-116", "css selector", "span")
+2019-07-01T12:02:11.235Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-116/element
+2019-07-01T12:02:11.235Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.261Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-277' }
+2019-07-01T12:02:11.265Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-115", "css selector", "span")
+2019-07-01T12:02:11.266Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-115/element
+2019-07-01T12:02:11.266Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.289Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-278' }
+2019-07-01T12:02:11.292Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-114", "css selector", "span")
+2019-07-01T12:02:11.292Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-114/element
+2019-07-01T12:02:11.292Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.312Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-279' }
+2019-07-01T12:02:11.320Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-113", "css selector", "span")
+2019-07-01T12:02:11.321Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-113/element
+2019-07-01T12:02:11.321Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.340Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-280' }
+2019-07-01T12:02:11.345Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-112", "css selector", "span")
+2019-07-01T12:02:11.345Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-112/element
+2019-07-01T12:02:11.345Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.370Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-281' }
+2019-07-01T12:02:11.375Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-111", "css selector", "span")
+2019-07-01T12:02:11.376Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-111/element
+2019-07-01T12:02:11.376Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.402Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-282' }
+2019-07-01T12:02:11.406Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-110", "css selector", "span")
+2019-07-01T12:02:11.406Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-110/element
+2019-07-01T12:02:11.406Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.427Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-283' }
+2019-07-01T12:02:11.430Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-109", "css selector", "span")
+2019-07-01T12:02:11.431Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-109/element
+2019-07-01T12:02:11.431Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.451Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-284' }
+2019-07-01T12:02:11.455Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-108", "css selector", "span")
+2019-07-01T12:02:11.455Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-108/element
+2019-07-01T12:02:11.455Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.479Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-285' }
+2019-07-01T12:02:11.485Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-107", "css selector", "span")
+2019-07-01T12:02:11.485Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-107/element
+2019-07-01T12:02:11.485Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.504Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-286' }
+2019-07-01T12:02:11.510Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-106", "css selector", "span")
+2019-07-01T12:02:11.511Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-106/element
+2019-07-01T12:02:11.511Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.526Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-287' }
+2019-07-01T12:02:11.531Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-105", "css selector", "span")
+2019-07-01T12:02:11.532Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-105/element
+2019-07-01T12:02:11.532Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.558Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-288' }
+2019-07-01T12:02:11.564Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-104", "css selector", "span")
+2019-07-01T12:02:11.565Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-104/element
+2019-07-01T12:02:11.566Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.582Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-289' }
+2019-07-01T12:02:11.587Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-103", "css selector", "span")
+2019-07-01T12:02:11.588Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-103/element
+2019-07-01T12:02:11.588Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.609Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-290' }
+2019-07-01T12:02:11.616Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-102", "css selector", "span")
+2019-07-01T12:02:11.616Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-102/element
+2019-07-01T12:02:11.617Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.637Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-291' }
+2019-07-01T12:02:11.641Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-101", "css selector", "span")
+2019-07-01T12:02:11.641Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-101/element
+2019-07-01T12:02:11.641Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.656Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-292' }
+2019-07-01T12:02:11.660Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-100", "css selector", "span")
+2019-07-01T12:02:11.661Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-100/element
+2019-07-01T12:02:11.661Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.686Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-293' }
+2019-07-01T12:02:11.689Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-99", "css selector", "span")
+2019-07-01T12:02:11.689Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-99/element
+2019-07-01T12:02:11.689Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.707Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-294' }
+2019-07-01T12:02:11.710Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-98", "css selector", "span")
+2019-07-01T12:02:11.710Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-98/element
+2019-07-01T12:02:11.710Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.732Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-295' }
+2019-07-01T12:02:11.736Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-97", "css selector", "span")
+2019-07-01T12:02:11.736Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-97/element
+2019-07-01T12:02:11.736Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.757Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-296' }
+2019-07-01T12:02:11.761Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-96", "css selector", "span")
+2019-07-01T12:02:11.762Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-96/element
+2019-07-01T12:02:11.762Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.782Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-297' }
+2019-07-01T12:02:11.786Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-95", "css selector", "span")
+2019-07-01T12:02:11.786Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-95/element
+2019-07-01T12:02:11.786Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.806Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-298' }
+2019-07-01T12:02:11.815Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-94", "css selector", "span")
+2019-07-01T12:02:11.816Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-94/element
+2019-07-01T12:02:11.816Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.836Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-299' }
+2019-07-01T12:02:11.839Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-93", "css selector", "span")
+2019-07-01T12:02:11.839Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-93/element
+2019-07-01T12:02:11.839Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.862Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-300' }
+2019-07-01T12:02:11.866Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-92", "css selector", "span")
+2019-07-01T12:02:11.867Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-92/element
+2019-07-01T12:02:11.867Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.888Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-301' }
+2019-07-01T12:02:11.891Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-91", "css selector", "span")
+2019-07-01T12:02:11.892Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-91/element
+2019-07-01T12:02:11.892Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.917Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-302' }
+2019-07-01T12:02:11.920Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-90", "css selector", "span")
+2019-07-01T12:02:11.921Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-90/element
+2019-07-01T12:02:11.921Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.939Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-303' }
+2019-07-01T12:02:11.944Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-89", "css selector", "span")
+2019-07-01T12:02:11.945Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-89/element
+2019-07-01T12:02:11.945Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.960Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-304' }
+2019-07-01T12:02:11.967Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-88", "css selector", "span")
+2019-07-01T12:02:11.968Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-88/element
+2019-07-01T12:02:11.968Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:11.987Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-305' }
+2019-07-01T12:02:11.990Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-87", "css selector", "span")
+2019-07-01T12:02:11.990Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-87/element
+2019-07-01T12:02:11.990Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.013Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-306' }
+2019-07-01T12:02:12.017Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-86", "css selector", "span")
+2019-07-01T12:02:12.017Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-86/element
+2019-07-01T12:02:12.017Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.036Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-307' }
+2019-07-01T12:02:12.042Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-85", "css selector", "span")
+2019-07-01T12:02:12.042Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-85/element
+2019-07-01T12:02:12.043Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.059Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-308' }
+2019-07-01T12:02:12.062Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-84", "css selector", "span")
+2019-07-01T12:02:12.063Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-84/element
+2019-07-01T12:02:12.063Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.089Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-309' }
+2019-07-01T12:02:12.092Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-83", "css selector", "span")
+2019-07-01T12:02:12.092Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-83/element
+2019-07-01T12:02:12.093Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.117Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-310' }
+2019-07-01T12:02:12.120Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-82", "css selector", "span")
+2019-07-01T12:02:12.121Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-82/element
+2019-07-01T12:02:12.121Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.139Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-311' }
+2019-07-01T12:02:12.142Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-81", "css selector", "span")
+2019-07-01T12:02:12.143Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-81/element
+2019-07-01T12:02:12.143Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.167Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-312' }
+2019-07-01T12:02:12.174Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-80", "css selector", "span")
+2019-07-01T12:02:12.174Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-80/element
+2019-07-01T12:02:12.174Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.200Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-313' }
+2019-07-01T12:02:12.202Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-79", "css selector", "span")
+2019-07-01T12:02:12.202Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-79/element
+2019-07-01T12:02:12.202Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.222Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-314' }
+2019-07-01T12:02:12.227Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-78", "css selector", "span")
+2019-07-01T12:02:12.228Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-78/element
+2019-07-01T12:02:12.228Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.249Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-315' }
+2019-07-01T12:02:12.253Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-77", "css selector", "span")
+2019-07-01T12:02:12.253Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-77/element
+2019-07-01T12:02:12.253Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.274Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-316' }
+2019-07-01T12:02:12.277Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-76", "css selector", "span")
+2019-07-01T12:02:12.277Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-76/element
+2019-07-01T12:02:12.277Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.299Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-317' }
+2019-07-01T12:02:12.302Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-75", "css selector", "span")
+2019-07-01T12:02:12.302Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-75/element
+2019-07-01T12:02:12.302Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.322Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-318' }
+2019-07-01T12:02:12.325Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-74", "css selector", "span")
+2019-07-01T12:02:12.326Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-74/element
+2019-07-01T12:02:12.326Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.350Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-319' }
+2019-07-01T12:02:12.353Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-73", "css selector", "span")
+2019-07-01T12:02:12.354Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-73/element
+2019-07-01T12:02:12.354Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.377Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-320' }
+2019-07-01T12:02:12.380Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-72", "css selector", "span")
+2019-07-01T12:02:12.380Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-72/element
+2019-07-01T12:02:12.380Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.404Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-321' }
+2019-07-01T12:02:12.407Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-71", "css selector", "span")
+2019-07-01T12:02:12.407Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-71/element
+2019-07-01T12:02:12.407Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.435Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-322' }
+2019-07-01T12:02:12.438Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-70", "css selector", "span")
+2019-07-01T12:02:12.438Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-70/element
+2019-07-01T12:02:12.438Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.457Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-323' }
+2019-07-01T12:02:12.460Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-69", "css selector", "span")
+2019-07-01T12:02:12.461Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-69/element
+2019-07-01T12:02:12.461Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.486Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-324' }
+2019-07-01T12:02:12.489Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-68", "css selector", "span")
+2019-07-01T12:02:12.490Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-68/element
+2019-07-01T12:02:12.490Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.508Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-325' }
+2019-07-01T12:02:12.511Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-67", "css selector", "span")
+2019-07-01T12:02:12.511Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-67/element
+2019-07-01T12:02:12.511Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.535Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-326' }
+2019-07-01T12:02:12.539Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-66", "css selector", "span")
+2019-07-01T12:02:12.540Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-66/element
+2019-07-01T12:02:12.540Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.564Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-327' }
+2019-07-01T12:02:12.570Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-65", "css selector", "span")
+2019-07-01T12:02:12.570Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-65/element
+2019-07-01T12:02:12.571Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.588Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-328' }
+2019-07-01T12:02:12.591Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-64", "css selector", "span")
+2019-07-01T12:02:12.591Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-64/element
+2019-07-01T12:02:12.591Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.613Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-329' }
+2019-07-01T12:02:12.616Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-63", "css selector", "span")
+2019-07-01T12:02:12.616Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-63/element
+2019-07-01T12:02:12.616Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.637Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-330' }
+2019-07-01T12:02:12.640Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-62", "css selector", "span")
+2019-07-01T12:02:12.640Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-62/element
+2019-07-01T12:02:12.640Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.668Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-331' }
+2019-07-01T12:02:12.673Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-61", "css selector", "span")
+2019-07-01T12:02:12.674Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-61/element
+2019-07-01T12:02:12.674Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.690Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-332' }
+2019-07-01T12:02:12.693Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-60", "css selector", "span")
+2019-07-01T12:02:12.694Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-60/element
+2019-07-01T12:02:12.694Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.719Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-333' }
+2019-07-01T12:02:12.721Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-59", "css selector", "span")
+2019-07-01T12:02:12.721Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-59/element
+2019-07-01T12:02:12.721Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.741Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-334' }
+2019-07-01T12:02:12.746Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-58", "css selector", "span")
+2019-07-01T12:02:12.746Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-58/element
+2019-07-01T12:02:12.747Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.765Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-335' }
+2019-07-01T12:02:12.770Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-57", "css selector", "span")
+2019-07-01T12:02:12.771Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-57/element
+2019-07-01T12:02:12.771Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.790Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-336' }
+2019-07-01T12:02:12.793Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-56", "css selector", "span")
+2019-07-01T12:02:12.793Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-56/element
+2019-07-01T12:02:12.793Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.812Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-337' }
+2019-07-01T12:02:12.817Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-55", "css selector", "span")
+2019-07-01T12:02:12.817Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-55/element
+2019-07-01T12:02:12.817Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.834Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-338' }
+2019-07-01T12:02:12.838Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-54", "css selector", "span")
+2019-07-01T12:02:12.839Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-54/element
+2019-07-01T12:02:12.839Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.859Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-339' }
+2019-07-01T12:02:12.862Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-53", "css selector", "span")
+2019-07-01T12:02:12.863Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-53/element
+2019-07-01T12:02:12.869Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.886Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-340' }
+2019-07-01T12:02:12.889Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-52", "css selector", "span")
+2019-07-01T12:02:12.889Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-52/element
+2019-07-01T12:02:12.889Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.908Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-341' }
+2019-07-01T12:02:12.910Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-51", "css selector", "span")
+2019-07-01T12:02:12.910Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-51/element
+2019-07-01T12:02:12.910Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.931Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-342' }
+2019-07-01T12:02:12.938Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-50", "css selector", "span")
+2019-07-01T12:02:12.939Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-50/element
+2019-07-01T12:02:12.939Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.960Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-343' }
+2019-07-01T12:02:12.964Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-49", "css selector", "span")
+2019-07-01T12:02:12.965Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-49/element
+2019-07-01T12:02:12.965Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:12.994Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-344' }
+2019-07-01T12:02:12.996Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-48", "css selector", "span")
+2019-07-01T12:02:12.997Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-48/element
+2019-07-01T12:02:12.997Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.020Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-345' }
+2019-07-01T12:02:13.022Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-47", "css selector", "span")
+2019-07-01T12:02:13.026Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-47/element
+2019-07-01T12:02:13.026Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.054Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-346' }
+2019-07-01T12:02:13.061Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-46", "css selector", "span")
+2019-07-01T12:02:13.062Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-46/element
+2019-07-01T12:02:13.062Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.085Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-347' }
+2019-07-01T12:02:13.089Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-45", "css selector", "span")
+2019-07-01T12:02:13.090Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-45/element
+2019-07-01T12:02:13.090Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.109Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-348' }
+2019-07-01T12:02:13.112Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-44", "css selector", "span")
+2019-07-01T12:02:13.112Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-44/element
+2019-07-01T12:02:13.112Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.134Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-349' }
+2019-07-01T12:02:13.137Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-43", "css selector", "span")
+2019-07-01T12:02:13.137Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-43/element
+2019-07-01T12:02:13.137Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.159Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-350' }
+2019-07-01T12:02:13.162Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-42", "css selector", "span")
+2019-07-01T12:02:13.162Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-42/element
+2019-07-01T12:02:13.162Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.180Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-351' }
+2019-07-01T12:02:13.185Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-41", "css selector", "span")
+2019-07-01T12:02:13.186Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-41/element
+2019-07-01T12:02:13.186Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.205Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-352' }
+2019-07-01T12:02:13.207Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-40", "css selector", "span")
+2019-07-01T12:02:13.208Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-40/element
+2019-07-01T12:02:13.208Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.234Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-353' }
+2019-07-01T12:02:13.236Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-39", "css selector", "span")
+2019-07-01T12:02:13.236Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-39/element
+2019-07-01T12:02:13.236Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.260Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-354' }
+2019-07-01T12:02:13.264Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-38", "css selector", "span")
+2019-07-01T12:02:13.264Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-38/element
+2019-07-01T12:02:13.264Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.285Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-355' }
+2019-07-01T12:02:13.288Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-37", "css selector", "span")
+2019-07-01T12:02:13.289Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-37/element
+2019-07-01T12:02:13.289Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.311Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-356' }
+2019-07-01T12:02:13.315Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-36", "css selector", "span")
+2019-07-01T12:02:13.315Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-36/element
+2019-07-01T12:02:13.315Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.336Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-357' }
+2019-07-01T12:02:13.340Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-35", "css selector", "span")
+2019-07-01T12:02:13.341Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-35/element
+2019-07-01T12:02:13.341Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.357Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-358' }
+2019-07-01T12:02:13.362Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-34", "css selector", "span")
+2019-07-01T12:02:13.362Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-34/element
+2019-07-01T12:02:13.362Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.384Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-359' }
+2019-07-01T12:02:13.386Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-33", "css selector", "span")
+2019-07-01T12:02:13.387Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-33/element
+2019-07-01T12:02:13.387Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.417Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-360' }
+2019-07-01T12:02:13.419Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-32", "css selector", "span")
+2019-07-01T12:02:13.420Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-32/element
+2019-07-01T12:02:13.420Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.444Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-361' }
+2019-07-01T12:02:13.447Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-31", "css selector", "span")
+2019-07-01T12:02:13.448Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-31/element
+2019-07-01T12:02:13.448Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.473Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-362' }
+2019-07-01T12:02:13.478Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-30", "css selector", "span")
+2019-07-01T12:02:13.479Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-30/element
+2019-07-01T12:02:13.479Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.501Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-363' }
+2019-07-01T12:02:13.504Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-29", "css selector", "span")
+2019-07-01T12:02:13.505Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-29/element
+2019-07-01T12:02:13.505Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.530Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-364' }
+2019-07-01T12:02:13.534Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-28", "css selector", "span")
+2019-07-01T12:02:13.534Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-28/element
+2019-07-01T12:02:13.534Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.556Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-365' }
+2019-07-01T12:02:13.559Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-27", "css selector", "span")
+2019-07-01T12:02:13.559Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-27/element
+2019-07-01T12:02:13.559Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.579Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-366' }
+2019-07-01T12:02:13.583Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-26", "css selector", "span")
+2019-07-01T12:02:13.584Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-26/element
+2019-07-01T12:02:13.584Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.606Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-367' }
+2019-07-01T12:02:13.609Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-25", "css selector", "span")
+2019-07-01T12:02:13.609Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-25/element
+2019-07-01T12:02:13.609Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.632Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-368' }
+2019-07-01T12:02:13.635Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-24", "css selector", "span")
+2019-07-01T12:02:13.636Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-24/element
+2019-07-01T12:02:13.636Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.655Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-369' }
+2019-07-01T12:02:13.657Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-23", "css selector", "span")
+2019-07-01T12:02:13.657Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-23/element
+2019-07-01T12:02:13.657Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.675Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-370' }
+2019-07-01T12:02:13.677Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-22", "css selector", "span")
+2019-07-01T12:02:13.678Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-22/element
+2019-07-01T12:02:13.678Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.704Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-371' }
+2019-07-01T12:02:13.706Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-21", "css selector", "span")
+2019-07-01T12:02:13.706Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-21/element
+2019-07-01T12:02:13.707Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.731Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-372' }
+2019-07-01T12:02:13.733Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-20", "css selector", "span")
+2019-07-01T12:02:13.734Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-20/element
+2019-07-01T12:02:13.734Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.774Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-373' }
+2019-07-01T12:02:13.780Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-19", "css selector", "span")
+2019-07-01T12:02:13.781Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-19/element
+2019-07-01T12:02:13.781Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.807Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-374' }
+2019-07-01T12:02:13.811Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-18", "css selector", "span")
+2019-07-01T12:02:13.812Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-18/element
+2019-07-01T12:02:13.812Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.833Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-375' }
+2019-07-01T12:02:13.837Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-17", "css selector", "span")
+2019-07-01T12:02:13.838Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-17/element
+2019-07-01T12:02:13.838Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.857Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-376' }
+2019-07-01T12:02:13.861Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-16", "css selector", "span")
+2019-07-01T12:02:13.861Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-16/element
+2019-07-01T12:02:13.862Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.882Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-377' }
+2019-07-01T12:02:13.885Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-15", "css selector", "span")
+2019-07-01T12:02:13.885Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-15/element
+2019-07-01T12:02:13.885Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.910Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-378' }
+2019-07-01T12:02:13.913Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-14", "css selector", "span")
+2019-07-01T12:02:13.913Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-14/element
+2019-07-01T12:02:13.913Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.930Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-379' }
+2019-07-01T12:02:13.934Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-13", "css selector", "span")
+2019-07-01T12:02:13.934Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-13/element
+2019-07-01T12:02:13.934Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.957Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-380' }
+2019-07-01T12:02:13.959Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-12", "css selector", "span")
+2019-07-01T12:02:13.959Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-12/element
+2019-07-01T12:02:13.960Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:13.985Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-381' }
+2019-07-01T12:02:13.987Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-11", "css selector", "span")
+2019-07-01T12:02:13.988Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-11/element
+2019-07-01T12:02:13.988Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.006Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-382' }
+2019-07-01T12:02:14.008Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-10", "css selector", "span")
+2019-07-01T12:02:14.009Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-10/element
+2019-07-01T12:02:14.009Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.045Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-383' }
+2019-07-01T12:02:14.048Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-9", "css selector", "span")
+2019-07-01T12:02:14.049Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-9/element
+2019-07-01T12:02:14.049Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.068Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-384' }
+2019-07-01T12:02:14.072Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-8", "css selector", "span")
+2019-07-01T12:02:14.072Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-8/element
+2019-07-01T12:02:14.072Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.098Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-385' }
+2019-07-01T12:02:14.101Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-7", "css selector", "span")
+2019-07-01T12:02:14.102Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-7/element
+2019-07-01T12:02:14.102Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.117Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-386' }
+2019-07-01T12:02:14.120Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-6", "css selector", "span")
+2019-07-01T12:02:14.121Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-6/element
+2019-07-01T12:02:14.121Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.141Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-387' }
+2019-07-01T12:02:14.144Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-5", "css selector", "span")
+2019-07-01T12:02:14.144Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-5/element
+2019-07-01T12:02:14.144Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.160Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-388' }
+2019-07-01T12:02:14.163Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-4", "css selector", "span")
+2019-07-01T12:02:14.164Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-4/element
+2019-07-01T12:02:14.164Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.189Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-389' }
+2019-07-01T12:02:14.192Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-3", "css selector", "span")
+2019-07-01T12:02:14.192Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-3/element
+2019-07-01T12:02:14.193Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.213Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-390' }
+2019-07-01T12:02:14.217Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-2", "css selector", "span")
+2019-07-01T12:02:14.217Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-2/element
+2019-07-01T12:02:14.217Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.237Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-391' }
+2019-07-01T12:02:14.239Z INFO webdriver: COMMAND findElementFromElement("0.703584376569431-1", "css selector", "span")
+2019-07-01T12:02:14.240Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/element/0.703584376569431-1/element
+2019-07-01T12:02:14.240Z INFO webdriver: DATA { using: 'css selector', value: 'span' }
+2019-07-01T12:02:14.264Z INFO webdriver: RESULT { ELEMENT: '0.703584376569431-392' }
+2019-07-01T12:02:14.268Z INFO webdriver: COMMAND getLogTypes()
+2019-07-01T12:02:14.268Z INFO webdriver: [GET] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/log/types
+2019-07-01T12:02:14.277Z INFO webdriver: RESULT [ 'server', 'browser', 'driver' ]
+2019-07-01T12:02:14.278Z DEBUG @wdio/runner: Fetching logs for server, browser, driver
+2019-07-01T12:02:14.278Z INFO webdriver: COMMAND getLogs("server")
+2019-07-01T12:02:14.278Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/log
+2019-07-01T12:02:14.278Z INFO webdriver: DATA { type: 'server' }
+2019-07-01T12:02:14.279Z INFO webdriver: COMMAND getLogs("browser")
+2019-07-01T12:02:14.279Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/log
+2019-07-01T12:02:14.279Z INFO webdriver: DATA { type: 'browser' }
+2019-07-01T12:02:14.279Z INFO webdriver: COMMAND getLogs("driver")
+2019-07-01T12:02:14.279Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db/log
+2019-07-01T12:02:14.280Z INFO webdriver: DATA { type: 'driver' }
+2019-07-01T12:02:14.296Z INFO webdriver: RESULT []
+2019-07-01T12:02:14.296Z INFO webdriver: RESULT [ { level: 'INFO',
+    message:
+     'Capabilities are: {\n  "browserName": "chrome",\n  "goog:chromeOptions": {\n    "args": [\n      "--headless",\n      "--window-size=1920x1080"\n    ]\n  }\n}',
+    timestamp: 1561982527460 },
+  { level: 'INFO',
+    message:
+     'Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)',
+    timestamp: 1561982527461 },
+  { level: 'INFO',
+    message: 'Detected dialect: OSS',
+    timestamp: 1561982528288 },
+  { level: 'INFO',
+    message:
+     'Started new session 51710a1d8729bbd8c2321182a4ebd6db (org.openqa.selenium.chrome.ChromeDriverService)',
+    timestamp: 1561982528577 } ]
+2019-07-01T12:02:14.301Z INFO webdriver: RESULT []
+2019-07-01T12:02:14.301Z INFO webdriver: COMMAND deleteSession()
+2019-07-01T12:02:14.302Z INFO webdriver: [DELETE] http://localhost:4444/wd/hub/session/51710a1d8729bbd8c2321182a4ebd6db

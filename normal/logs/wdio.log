@@ -1,0 +1,6 @@
+2019-07-01T12:02:04.792Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "selenium-standalone"
+2019-07-01T12:02:04.851Z INFO @wdio/cli:Launcher: Run onPrepare hook
+2019-07-01T12:02:06.967Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+2019-07-01T12:02:14.468Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 0
+2019-07-01T12:02:14.470Z INFO @wdio/cli:Launcher: Run onComplete hook
+2019-07-01T12:02:14.470Z INFO @wdio/selenium-standalone-service: shutting down all browsers
