@@ -1,4 +1,0 @@
-{"level":"INFO","message":"Capabilities are: {\n  \"browserName\": \"chrome\",\n  \"goog:chromeOptions\": {\n    \"args\": [\n      \"--headless\",\n      \"--window-size=1920x1080\"\n    ]\n  }\n}","timestamp":1561973587900}
-{"level":"INFO","message":"Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)","timestamp":1561973587900}
-{"level":"INFO","message":"Detected dialect: OSS","timestamp":1561973588204}
-{"level":"INFO","message":"Started new session d9236e270b42c53792ec1014ca55c2e3 (org.openqa.selenium.chrome.ChromeDriverService)","timestamp":1561973588242}
