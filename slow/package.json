@@ -16,6 +16,6 @@
     "@wdio/spec-reporter": "^5.9.3",
     "@wdio/sync": "5.10.8",
     "chromedriver": "^75.0.0",
-    "lodash": "4.17.11"
+    "lodash": "4.17.14"
   }
 }
